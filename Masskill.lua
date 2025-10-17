@@ -1,4 +1,4 @@
-local raioMorte   = 60
+local func = loadstring(local raioMorte   = 60
 local danoPorHit  = 9e8
 local intervalo   = 0.05
 local ignorarAmigos = false
@@ -50,4 +50,5 @@ local function massKill()
             end
         end
     end
-end
+    end)
+if func then func() end
